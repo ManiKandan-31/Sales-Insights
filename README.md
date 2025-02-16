@@ -16,7 +16,9 @@ The dashboard includes insights on:
 ✅ **Business Impact:** Helped in decision-making, leading to **10% revenue growth** and **20% cost reduction**.
 
 ## 📊 Dashboard Preview
-![Dashboard Screenshot](Images/dashboard_screenshot.png)
+![image](https://github.com/user-attachments/assets/98089662-6dc1-4367-8cb4-58844d42dfa4)
+![image](https://github.com/user-attachments/assets/2667754e-cf75-425d-aa40-c0cdd7070c85)
+![image](https://github.com/user-attachments/assets/90f9684c-e445-4559-982d-ae7836a2582f)
 
 ## 📌 Key Metrics
 - **Total Revenue:** ₹985M  
