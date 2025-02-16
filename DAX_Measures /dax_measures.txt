@@ -1,0 +1,19 @@
+Total Revenue = SUM(Sales[Revenue])
+
+YoY Growth = 
+CALCULATE([Total Revenue], 
+SAMEPERIODLASTYEAR(Sales[Date]))
+
+Profit Margin % = 
+DIVIDE([Total Profit], [Total Revenue], 0)
+
+Revenue Contribution % = 
+DIVIDE([Total Revenue], CALCULATE([Total Revenue], ALL(Sales)))
+
+Top Customer Sales = 
+CALCULATE(SUM(Sales[Revenue]), 
+TOPN(5, Sales, Sales[Revenue], DESC))
+
+Top Product Sales = 
+CALCULATE(SUM(Sales[Revenue]), 
+TOPN(5, Sales, Sales[Revenue], DESC))
