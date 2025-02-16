@@ -20,14 +20,31 @@ The dashboard includes insights on:
 ![image](https://github.com/user-attachments/assets/2667754e-cf75-425d-aa40-c0cdd7070c85)
 ![image](https://github.com/user-attachments/assets/90f9684c-e445-4559-982d-ae7836a2582f)
 
+
+## 📥 How to Run the 
+
+- Download the dashboard from[Dashboard]
+- Download the data from[Database] Dump the data into your sql
+- And connect Sql to your **Power Bi**
+- Wait for the data to load
+- Explore the Dashboard
+- Use filters and slicers to analyze sales trends.
+- Hover over visual elements for additional insights.
+- Check revenue trends, top customers, and product sales.
+- Modify or Extend the Report
+- Add new DAX measures ,See [DAX_Measures].
+- Adjust Power Query transformations if needed.
+- Optimize report performance using DAX Studio.
+  
 ## 📌 Key Metrics
 - **Total Revenue:** ₹985M  
 - **Total Sales Quantity:** 2M  
 - **Top Markets by Revenue:** Delhi NCR, Mumbai, Ahmedabad  
 - **Profit Margin Contribution:** Highest in **Delhi NCR** (48.5%)  
 - **Top Customers:** Electricalsara Stores, Electricalslytical, Excel Stores  
-- **Top Products by Sales:** Prod040, Prod159, Prod065  
-
+- **Top Products by Sales:** Prod040, Prod159, Prod065
+  
+  
 ## 🔢 Key DAX Measures
 ```DAX
 Total Revenue = SUM(Sales[Revenue])
